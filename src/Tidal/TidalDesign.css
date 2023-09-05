@@ -19,8 +19,8 @@ html {
 
 .logo {
   color: #18f6c6;
-  font-weight: 1000;
-  font-size: 9rem;
+  font-weight: 700;
+  font-size: 2rem;
   padding-left: 2rem;
   float: left;
   padding-top: 4rem;
@@ -70,15 +70,15 @@ html {
 
 .main-heading {
   color: white;
-  font-size: 3.4rem;
+  font-size: 4.4rem;
   font-weight: 700;
   text-align: justify;
 }
 
 .sub-heading {
-  margin-top: 2.2rem;
+  margin-top: 2.4rem;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 100;
   text-align: justify;
 }
@@ -87,24 +87,25 @@ html {
   display: flex;
   justify-content: center;
   width: 29rem;
-  margin-left: -3.2rem;
+  margin-left: -3rem;
   margin-top: 2rem;
   padding-right: 2rem;
 }
 
 .connect-button {
-  background: linear-gradient(to right, #18f6c6, #18f6c6);
+  background: linear-gradient(to right, #18f6c6, rgba(18, 231, 185, 0.9450980392));
   color: #0f0f0f;
   align-self: end;
   border: none;
-  width: 20rem;
+  width: 22rem;
   box-sizing: border-box;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   cursor: pointer;
   border: 3px solid #18f6c6;
   margin: 1rem 1rem;
   padding: 0.8rem;
+  height: 5rem;
 }
 
 .white-button {
@@ -198,17 +199,83 @@ html {
 }
 
 .serach {
-  width: 49rem;
+  width: 62rem;
   padding-top: 7rem;
-  padding-left: 32rem;
+  padding-left: 33rem;
 }
 
 .serach input {
-  width: 50rem;
+  width: 59rem;
   height: 5rem;
   padding: 0 0.5rem;
   font-size: 1.5rem;
   border: 1px solid white;
   outline: none;
   border-radius: 0.5rem;
+}
+
+.card {
+  width: 80rem;
+  height: 40rem;
+  background-color: #1d0039;
+  margin-left: 32.9rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Card-1 {
+  width: 34rem;
+  height: 8rem;
+  background-color: red;
+  margin-right: 1rem;
+  background-color: azure;
+}
+
+.Card-2 {
+  width: 35rem;
+  height: 8rem;
+  border: 1px solid white;
+  background-color: azure;
+}
+
+.img1 {
+  background-color: white;
+  padding-right: 1.9rem;
+  padding-top: 1rem;
+}
+
+.cardheading {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: -5.6rem;
+  width: 19rem;
+  background: white;
+}
+
+.card-sub {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 10rem;
+  background: white;
+  margin-left: 7rem;
+}
+
+.card-btn {
+  color: black;
+  background-color: #31e4bd;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 8rem;
+  height: 3rem;
+  position: relative;
+  bottom: 3.8rem;
+  float: right;
+  right: 3rem;
 }/*# sourceMappingURL=TidalDesign.css.map */

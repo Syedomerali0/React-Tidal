@@ -1,15 +1,29 @@
-import logo from "./logo.svg";
 import "./App.css";
-import TidalNav from "./task03/TidalNav";
-import TidalMain from "./task03/TidalMain";
-import TidalSlider from "./task03/TidalSlider";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  routes,
+} from "react-router-dom";
+import TidalSlider from "./Tidal/TidalSlider";
+import Rootlayout from "./Tidal/Root";
+import TradeOption from "./Tidal/TradeOption";
+import TradeFuture from "./Tidal/TradeFuture";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Rootlayout />,
+    children: [
+      { path: "/Tradeoption", element: <TradeOption /> },
+      { path: "/TradeFuture", element: <TradeFuture /> },
+    ],
+  },
+]);
 function App() {
   return (
     <>
-      <TidalNav />
-      <TidalMain />
-      <TidalSlider />
+      <RouterProvider router={router} />
     </>
   );
 }

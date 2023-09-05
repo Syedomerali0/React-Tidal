@@ -6,7 +6,7 @@ function TidalNav() {
     <>
       <nav className="Nav-bar">
         <div className="logo">
-          <h1>TIDAL</h1>
+          <h2>TIDAL</h2>
         </div>
         <div className="social-media">
           <ul className="social-media-desktop">

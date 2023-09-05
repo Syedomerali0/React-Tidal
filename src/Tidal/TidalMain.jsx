@@ -4,10 +4,12 @@ function TidalMain() {
     <>
       <div className="split-left">
         <div className="Ad-container">
-          <h2 className="main-heading">Crosschain DeFi made simple</h2>
+          <h2 className="main-heading">
+            Crosschain DeFi <br /> made simple
+          </h2>
           <h3 className="sub-heading">
-            insure assests across chain with an AWM powered options-futures
-            liquidity bridge
+            insure assests across chain with an AWM
+            <br /> powered options-futures liquidity bridge
           </h3>
           <div className="div-button">
             <button className="connect-button">Connect Metamask</button>
